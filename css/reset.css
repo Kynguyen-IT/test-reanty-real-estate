@@ -1,0 +1,59 @@
+ /* ==========================================================================
+   REANTY REAL ESTATE - CSS RESET
+   Clean Modern Box-Sizing & Base Element Reset
+   ========================================================================== */
+
+ *,
+ *::before,
+ *::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ html {
+   font-size: 16px;
+   scroll-behavior: smooth;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+ }
+
+ body {
+   font-family: var(--font-main, 'Poppins', sans-serif);
+   background-color: var(--bg-white, #FFFFFF);
+   color: var(--text-body, #616E7C);
+   line-height: 1.6;
+ }
+
+ img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+ }
+
+ a {
+   text-decoration: none;
+   color: inherit;
+   transition: var(--transition, all 0.25s ease);
+ }
+
+ button,
+ input,
+ textarea,
+ select {
+   font-family: inherit;
+   font-size: inherit;
+   outline: none;
+   border: none;
+ }
+
+ button {
+   cursor: pointer;
+   background: none;
+   transition: var(--transition, all 0.25s ease);
+ }
+
+ ul,
+ ol {
+   list-style: none;
+ }

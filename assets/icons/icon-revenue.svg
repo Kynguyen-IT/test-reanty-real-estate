@@ -1,0 +1,14 @@
+<svg width="48" height="60" viewBox="0 0 48 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="20" cy="15" r="14" fill="#FEB732"/>
+  <circle cx="20" cy="15" r="10" fill="#FED868"/>
+  <text x="20" y="20" font-family="sans-serif" font-size="14" font-weight="bold" fill="#FF5A3C" text-anchor="middle">$</text>
+  
+  <!-- Left arrow -->
+  <polygon points="7,37 2.5,43 5.5,43 5.5,56 8.5,56 8.5,43 11.5,43" fill="#FF5A3C"/>
+  
+  <!-- Middle arrow -->
+  <polygon points="20,30 15.5,36 18.5,36 18.5,56 21.5,56 21.5,36 24.5,36" fill="#FF5A3C"/>
+  
+  <!-- Right arrow -->
+  <polygon points="33,24 28.5,30 31.5,30 31.5,56 34.5,56 34.5,30 37.5,30" fill="#FF5A3C"/>
+</svg>

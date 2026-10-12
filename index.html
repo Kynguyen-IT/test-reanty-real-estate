@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Reanty - Find the best Real Estate in your country. Browse over 1 million homes, apartments, and commercial spaces.">
+  <title>Reanty. - Modern Real Estate Agency</title>
+
+  <!-- Google Fonts: Poppins & Nunito matching Figma -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Reset & Main Stylesheet -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <!-- ========================================================================
+       1. Top Bar
+       ======================================================================== -->
+  <aside class="top-bar" aria-label="Top Contact Bar">
+    <div class="container top-bar-content">
+      <div class="top-bar-left">
+        <a href="mailto:Info@webmail.com" class="top-info-item">
+          <img src="./assets/icons/icon-envelope-orange.svg" alt="Email" class="top-info-icon" width="14" height="14">
+          <span>Info@webmail.com</span>
+        </a>
+        <div class="top-info-item">
+          <img src="./assets/icons/icon-location-orange.svg" alt="Location" class="top-info-icon" width="14"
+            height="14">
+          <span>547 ns tower St. anglo City, USA</span>
+        </div>
+      </div>
+      <div class="top-bar-right">
+        <!-- Social Media Links -->
+        <a href="#facebook" class="social-link" aria-label="Facebook">
+          <img src="./assets/icons/icon-social-facebook.svg" alt="Facebook" width="14" height="14">
+        </a>
+        <a href="#twitter" class="social-link" aria-label="Twitter">
+          <img src="./assets/icons/icon-social-twitter.svg" alt="Twitter" width="14" height="14">
+        </a>
+        <a href="#instagram" class="social-link" aria-label="Instagram">
+          <img src="./assets/icons/icon-social-instagram.svg" alt="Instagram" width="14" height="14">
+        </a>
+        <a href="#youtube" class="social-link" aria-label="YouTube">
+          <img src="./assets/icons/icon-social-youtube.svg" alt="YouTube" width="14" height="14">
+        </a>
+        <a href="#pinterest" class="social-link" aria-label="Pinterest">
+          <img src="./assets/icons/icon-social-pinterest.svg" alt="Pinterest" width="14" height="14">
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       2. Main Navigation Header
+       ======================================================================== -->
+  <header class="main-header" id="mainHeader">
+    <div class="container nav-container">
+      <!-- Logo matching exact Figma design -->
+      <a href="./index.html" class="logo" id="siteLogo">
+        <img src="./assets/images/logo.png" alt="Reanty." class="logo-brand-img">
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#featured" class="nav-link">Feature</a>
+        <a href="#market" class="nav-link">Market</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Desktop Actions -->
+      <div class="nav-actions">
+        <a href="#login" class="login-link">Log In</a>
+        <a href="#signup" class="btn btn-header-signup">Sign Up</a>
+      </div>
+
+      <!-- Hamburger Button (Mobile) -->
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle Navigation Menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Drawer -->
+  <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+  <div class="mobile-nav-drawer" id="mobileNavDrawer">
+    <nav class="mobile-nav-menu">
+      <a href="#home" class="nav-link active mobile-nav-link">Home</a>
+      <a href="#about" class="nav-link mobile-nav-link">About</a>
+      <a href="#featured" class="nav-link mobile-nav-link">Feature</a>
+      <a href="#market" class="nav-link mobile-nav-link">Market</a>
+      <a href="#services" class="nav-link mobile-nav-link">Services</a>
+      <a href="#contact" class="nav-link mobile-nav-link">Contact</a>
+    </nav>
+    <div class="mobile-nav-actions">
+      <a href="#login" class="btn btn-outline mobile-nav-link">Log In</a>
+      <a href="#signup" class="btn btn-primary mobile-nav-link">Sign Up</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ========================================================================
+         3. Hero Section
+         ======================================================================== -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Hero Text -->
+          <div class="hero-content">
+            <div class="hero-title-wrap">
+              <h1 class="hero-title">
+                Find the best Real<br>
+                Estate on your<br>
+                country .
+              </h1>
+              <!-- Curved orange arrow doodle matching exact Figma shape (Node 2:677) -->
+              <img src="./assets/icons/icon-hero-arrow-doodle.svg" alt="" class="hero-arrow-doodle" width="228"
+                height="122">
+            </div>
+
+            <p class="hero-description">
+              With over 1 million homes for sale available on the website, Renting can match you with a house.
+            </p>
+
+            <div class="hero-cta">
+              <a href="#featured" class="btn btn-primary btn-start-membership">
+                <span>Start membership</span>
+                <img src="./assets/icons/icon-chevron-right-white.svg" alt="" class="btn-chevron" width="7" height="12">
+              </a>
+            </div>
+
+            <!-- Stepped Tab & Line Slider Indicator matching Figma Hình 4 -->
+            <div class="house-stepped-tabs">
+              <div class="stepped-tabs-track">
+                <div class="stepped-tab-item active" data-house="1">HOUSE 1</div>
+                <div class="stepped-tab-item" data-house="2">HOUSE 2</div>
+                <div class="stepped-tab-item" data-house="3">HOUSE 3</div>
+              </div>
+
+              <div class="stepped-slider-indicator">
+                <div class="indicator-line" id="heroIndicatorLine"></div>
+                <div class="indicator-numbers">
+                  <span class="active" id="heroNum1" data-house="1">1</span>
+                  <span id="heroNum2" data-house="2">2</span>
+                  <span id="heroNum3" data-house="3">3</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Visual & Floating Elements matching Figma Hình 1, 2, 3 & 5 -->
+          <div class="hero-visual">
+            <div class="hero-image-card">
+              <img src="./assets/images/hero-house.jpg" alt="Luxury Modern Villa Exterior"
+                class="hero-house-img current" id="heroMainImage">
+              <img src="" alt="" class="hero-house-img next" id="heroNextImage">
+            </div>
+
+            <!-- Floating Revenue Card matching Figma Node 2:666 -->
+            <div class="floating-revenue-card">
+              <div class="revenue-icon-box">
+                <img src="./assets/icons/icon-revenue-chart.svg" alt="Revenue chart" width="50" height="50">
+              </div>
+              <div class="revenue-amount">$7454.21</div>
+              <div class="revenue-label">Revenue</div>
+            </div>
+
+            <!-- Floating How It Works Button matching Figma Node 2:659 -->
+            <a href="#how-it-works" class="floating-video-btn" id="playVideoBtn">
+              <span>How it works</span>
+              <span class="play-icon-wrap">
+                <img src="./assets/icons/icon-play-button.svg" alt="Play" width="38" height="38">
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         4. Commercial Real Estate and Office
+         ======================================================================== -->
+    <section class="commercial-section" id="about">
+      <div class="container">
+        <div class="section-header commercial-header">
+          <h2 class="section-title commercial-title">Commercial Real Estate<br>And Office</h2>
+          <p class="section-subtitle commercial-subtitle">
+            Work with Renting brokers who help you to get<br>started with smart tools to.
+          </p>
+        </div>
+
+        <div class="commercial-grid">
+          <!-- Card 1: Buyer Guides -->
+          <div class="commercial-card">
+            <div class="card-icon-wrap">
+              <img src="./assets/icons/icon-commercial-buyer.svg" alt="Buyer Guides" width="90" height="90">
+            </div>
+            <h3 class="card-title">Buyer Guides</h3>
+            <p class="card-desc">
+              Nurture valuable leads into<br>customers, and turn one time.
+            </p>
+          </div>
+
+          <!-- Card 2: Renter Guides (Center Highlighted Card) -->
+          <div class="commercial-card featured-card">
+            <div class="card-icon-wrap">
+              <img src="./assets/icons/icon-commercial-renter.svg" alt="Renter Guides" width="90" height="90">
+            </div>
+            <h3 class="card-title">Renter Guides</h3>
+            <p class="card-desc">
+              Build brand awareness on the top<br>social media networks.
+            </p>
+          </div>
+
+          <!-- Card 3: Seller Guides -->
+          <div class="commercial-card">
+            <div class="card-icon-wrap">
+              <img src="./assets/icons/icon-commercial-seller.svg" alt="Seller Guides" width="90" height="90">
+            </div>
+            <h3 class="card-title">Seller Guides</h3>
+            <p class="card-desc">
+              Get professionally-written content<br>that attracts qualified.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         5. Dream Living Spaces & Today Sells Properties
+         ======================================================================== -->
+    <section class="dream-section" id="market">
+      <div class="container">
+        <!-- Row 1: Dream Living Spaces -->
+        <div class="split-feature-row">
+          <div class="stepped-images-box">
+            <!-- Back image (larger, bottom-left) -->
+            <img src="./assets/images/dream-living-main.jpg" alt="Dream Living Modern Home"
+              class="stepped-img stepped-img--back">
+            <!-- Front image (smaller, top-right overlapping) -->
+            <img src="./assets/images/about-home-villa.jpg" alt="Dream Living Villa"
+              class="stepped-img stepped-img--front">
+            <!-- Rating badge -->
+            <div class="rating-badge-vertical">
+              <img src="./assets/icons/icon-star-orange.svg" alt="Star" class="rating-star-icon" width="24" height="24">
+              <span class="rating-badge-text">5 Star Rating</span>
+            </div>
+          </div>
+
+          <div class="split-feature-content">
+            <h2 class="section-title">Dream Living Spaces<br>Setting New Build</h2>
+            <p class="section-subtitle">
+              SeaWire Web is a wireframe kit that has more than 15 <br /> popular categories and more than 200 screens
+            </p>
+
+            <div class="feature-list">
+              <div class="feature-list-card">
+                <div class="feature-icon-box">
+                  <img src="./assets/icons/icon-dream-quality.svg" alt="The perfect Rsidencye" width="40" height="40">
+                </div>
+                <div>
+                  <h4 class="feature-card-title">The perfect Rsidencye</h4>
+                  <p class="feature-card-desc">Take a deep dive and browse origin <br /> neighborhood photos.</p>
+                </div>
+              </div>
+
+              <div class="feature-list-card active">
+                <div class="feature-icon-box">
+                  <img src="./assets/icons/icon-dream-architect.svg" alt="Global Arhitect Experts" width="40"
+                    height="40">
+                </div>
+                <div>
+                  <h4 class="feature-card-title">Global Arhitect Experts</h4>
+                  <p class="feature-card-desc">Take a deep dive and browse origin <br /> neighborhood photos.</p>
+                </div>
+              </div>
+
+              <div class="feature-list-card">
+                <div class="feature-icon-box">
+                  <img src="./assets/icons/icon-dream-service.svg" alt="Built-in a storage capable" width="40"
+                    height="40">
+                </div>
+                <div>
+                  <h4 class="feature-card-title">Built-in a storage capable</h4>
+                  <p class="feature-card-desc">Take a deep dive and browse origin <br /> neighborhood photos.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 2: Today Sells Properties -->
+        <div class="split-feature-row today-sells-row">
+          <div class="split-feature-content">
+            <div class="section-tag">
+              <img src="./assets/icons/icon-section-tag-hexagon.svg" alt="About home" width="20" height="20">
+              <span>About home</span>
+            </div>
+            <h2 class="section-title">Today Sells Properties</h2>
+            <p class="section-subtitle">
+              SeaWire Web is a wireframe kit that has more than 15 popular categories and more than 200 screens.
+            </p>
+
+            <ul class="bullet-list">
+              <li class="bullet-item">
+                <span class="bullet-square"></span>
+                <span>Live Music concert at Newyork</span>
+              </li>
+              <li class="bullet-item">
+                <span class="bullet-square"></span>
+                <span>Our best boat Tour is j us t for you</span>
+              </li>
+              <li class="bullet-item">
+                <span class="bullet-square"></span>
+                <span>Live Music concert at Newyork</span>
+              </li>
+              <li class="bullet-item">
+                <span class="bullet-square"></span>
+                <span>Our best boat Tour is j us t for you</span>
+              </li>
+              <li class="bullet-item">
+                <span class="bullet-square"></span>
+                <span>Live Music concert at Newyork</span>
+              </li>
+            </ul>
+
+            <!-- Stepped Tab & Line Slider Indicator -->
+            <div class="house-stepped-tabs today-house-stepped-tabs">
+              <div class="stepped-tabs-track">
+                <div class="stepped-tab-item active" data-today-house="1">HOUSE 1</div>
+                <div class="stepped-tab-item" data-today-house="2">HOUSE 2</div>
+                <div class="stepped-tab-item" data-today-house="3">HOUSE 3</div>
+              </div>
+
+              <div class="stepped-slider-indicator">
+                <div class="indicator-line today-indicator-line" id="todayIndicatorLine"></div>
+                <div class="indicator-numbers">
+                  <span class="active" id="todayNum1" data-today-house="1">1</span>
+                  <span id="todayNum2" data-today-house="2">2</span>
+                  <span id="todayNum3" data-today-house="3">3</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3-Image Collage on Right -->
+          <div class="collage-grid">
+            <div class="collage-left">
+              <img src="./assets/images/about-home-villa.jpg" alt="Luxury Villa Architecture">
+            </div>
+            <div class="collage-right">
+              <img src="./assets/images/about-home-interior.jpg" alt="Interior Living Room">
+              <img src="./assets/images/property-2.jpg" alt="Modern Architecture View">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         6. Services Provide For You
+         ======================================================================== -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Services provide for you</h2>
+          <p class="section-subtitle">
+            There are many variations of passages of Lorem Ipsum available,<br>but the majority have suffered
+            alteration.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1: Bed Rooms -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <img src="./assets/icons/icon-service-commercial.svg" alt="Bed Rooms" class="service-icon-img">
+            </div>
+            <h3 class="service-title">Bed Rooms</h3>
+            <p class="service-desc">
+              Desktop publishing software like aldus page maker including
+            </p>
+            <a href="#services" class="service-link">
+              <span>Learn more</span>
+              <img src="./assets/icons/icon-arrow-right-tail.svg" alt="" class="service-link-arrow" width="14"
+                height="14">
+            </a>
+          </div>
+
+          <!-- Service 2: Swimming pool -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <img src="./assets/icons/icon-service-residential.svg" alt="Swimming pool" class="service-icon-img">
+            </div>
+            <h3 class="service-title">Swimming pool</h3>
+            <p class="service-desc">
+              React creative agency amet, consec tetur adipiscing elit.
+            </p>
+            <a href="#services" class="service-link">
+              <span>Learn more</span>
+              <img src="./assets/icons/icon-arrow-right-tail.svg" alt="" class="service-link-arrow" width="14"
+                height="14">
+            </a>
+          </div>
+
+          <!-- Service 3: Copywriting content -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <img src="./assets/icons/icon-service-architecture.svg" alt="Copywriting content"
+                class="service-icon-img">
+            </div>
+            <h3 class="service-title">Copywriting content</h3>
+            <p class="service-desc">
+              The standard chunk of used since the 1500s is reproduced
+            </p>
+            <a href="#services" class="service-link">
+              <span>Learn more</span>
+              <img src="./assets/icons/icon-arrow-right-tail.svg" alt="" class="service-link-arrow" width="14"
+                height="14">
+            </a>
+          </div>
+
+          <!-- Service 4: Smart Home -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <img src="./assets/icons/icon-service-interior.svg" alt="Smart Home" class="service-icon-img">
+            </div>
+            <h3 class="service-title">Smart Home</h3>
+            <p class="service-desc">
+              The standard chunk of used since the 1500s is reproduced
+            </p>
+            <a href="#services" class="service-link">
+              <span>Learn more</span>
+              <img src="./assets/icons/icon-arrow-right-tail.svg" alt="" class="service-link-arrow" width="14"
+                height="14">
+            </a>
+          </div>
+
+          <!-- Service 5: Libarary area -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <img src="./assets/icons/icon-service-consulting.svg" alt="Libarary area" class="service-icon-img">
+            </div>
+            <h3 class="service-title">Libarary area</h3>
+            <p class="service-desc">
+              Desktop publishing software like aldus page maker including
+            </p>
+            <a href="#services" class="service-link">
+              <span>Learn more</span>
+              <img src="./assets/icons/icon-arrow-right-tail.svg" alt="" class="service-link-arrow" width="14"
+                height="14">
+            </a>
+          </div>
+
+          <!-- Service 6: Responsive Duity -->
+          <div class="service-card">
+            <div class="service-icon-wrap">
+              <img src="./assets/icons/icon-service-legal.svg" alt="Responsive Duity" class="service-icon-img">
+            </div>
+            <h3 class="service-title">Responsive Duity</h3>
+            <p class="service-desc">
+              React creative agency amet, consec tetur adipiscing elit.
+            </p>
+            <a href="#services" class="service-link">
+              <span>Learn more</span>
+              <img src="./assets/icons/icon-arrow-right-tail.svg" alt="" class="service-link-arrow" width="14"
+                height="14">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         7. Featured Property
+         ======================================================================== -->
+    <section class="featured-section" id="featured">
+      <div class="container">
+        <div class="featured-header-row">
+          <div>
+            <h2 class="section-title">Featured Property</h2>
+            <p class="section-subtitle">
+              Find your suitable house here and stay safe and <br /> relaxe with pleasure
+            </p>
+          </div>
+
+          <!-- Property Filter Tabs -->
+          <div class="category-tabs" role="tablist">
+            <button class="category-tab-btn active" data-category="all" role="tab">Appartment</button>
+            <button class="category-tab-btn" data-category="vila" role="tab">Vila</button>
+            <button class="category-tab-btn" data-category="land" role="tab">Land</button>
+          </div>
+        </div>
+
+        <div class="property-cards-grid" id="propertyGrid">
+          <!-- Property Card 1 (Active Highlight) -->
+          <article class="property-card highlight" data-category="apartment">
+            <div class="property-img-wrap">
+              <img src="./assets/images/property-1.jpg" alt="The Stokes Appartment">
+              <div class="property-card-body">
+                <h3 class="property-title">The Stokes Appartment</h3>
+                <div class="property-location">
+                  <img src="./assets/icons/icon-location-gray.svg" alt="Location" width="14" height="14">
+                  <span>Cleveland, United States</span>
+                </div>
+                <div class="property-card-footer">
+                  <span class="property-price">$2,32,120</span>
+                  <a href="#property-detail" class="property-arrow-btn" aria-label="View property details">
+                    <img src="./assets/icons/icon-arrow-right-white.svg" alt="" width="22" height="13">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Property Card 2 -->
+          <article class="property-card" data-category="vila">
+            <div class="property-img-wrap">
+              <img src="./assets/images/property-2.jpg" alt="The Stokes Appartment">
+              <div class="property-card-body">
+                <h3 class="property-title">The Stokes Appartment</h3>
+                <div class="property-location">
+                  <img src="./assets/icons/icon-location-gray.svg" alt="Location" width="14" height="14">
+                  <span>Cleveland, United States</span>
+                </div>
+                <div class="property-card-footer">
+                  <span class="property-price">$2,32,120</span>
+                  <a href="#property-detail" class="property-arrow-btn" aria-label="View property details">
+                    <img src="./assets/icons/icon-arrow-right-dark.svg" alt="" width="22" height="13">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Property Card 3 -->
+          <article class="property-card" data-category="land">
+            <div class="property-img-wrap">
+              <img src="./assets/images/property-3.jpg" alt="The Stokes Appartment">
+              <div class="property-card-body">
+                <h3 class="property-title">The Stokes Appartment</h3>
+                <div class="property-location">
+                  <img src="./assets/icons/icon-location-gray.svg" alt="Location" width="14" height="14">
+                  <span>Cleveland, United States</span>
+                </div>
+                <div class="property-card-footer">
+                  <span class="property-price">$2,32,120</span>
+                  <a href="#property-detail" class="property-arrow-btn" aria-label="View property details">
+                    <img src="./assets/icons/icon-arrow-right-dark.svg" alt="" width="22" height="13">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="center-btn-wrap">
+          <a href="#explore" class="btn btn-outline">Explore Property</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         8. Showcase Banner & Unit No. 9A
+         ======================================================================== -->
+    <section class="showcase-banner-section">
+      <div class="showcase-overlay"></div>
+
+      <!-- Centered Floating Property Card -->
+      <div class="showcase-floating-card">
+        <div class="showcase-thumb">
+          <img src="./assets/images/property-1.jpg" alt="Property Preview">
+          <div class="thumb-dollar-icon"><span class="dollar">$</span></div>
+        </div>
+        <div class="showcase-details">
+          <div class="showcase-price">$4,000</div>
+          <div class="showcase-address">242 Metric way</div>
+          <div class="showcase-specs">
+            <div class="spec-item">
+              <span class="spec-icon-circle">
+                <img src="./assets/icons/icon-service-commercial.svg" alt="Bed Rooms" class="service-icon-img">
+              </span>
+              <span>2</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-icon-circle">
+                <img src="./assets/icons/icon-service-residential.svg" alt="Swimming pool" class="service-icon-img">
+              </span>
+              <span>2</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-icon-circle">
+                <img src="./assets/icons/icon-service-architecture.svg" alt="Copywriting content"
+                  class="service-icon-img">
+              </span>
+              <span>500sqf</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left-Aligned Unit No. 9A Badge inside container -->
+      <div class="container unit-badge-container">
+        <div class="unit-badge">
+          <span class="unit-label">UNIT NO.</span>
+          <span class="unit-num">9A</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         9. Customer Testimonial
+         ======================================================================== -->
+    <section class="testimonial-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">What our customers are saying</h2>
+          <p class="section-subtitle">
+            We make sure you have a fine distance with the sickness. We make you never lose hope.
+          </p>
+        </div>
+
+        <div class="testimonial-container">
+          <!-- Prev Button -->
+          <button class="testimonial-nav-btn prev" id="prevTestimonialBtn" aria-label="Previous Testimonial">
+            <img src="./assets/icons/icon-testimonial-prev.svg" alt="Previous" width="24" height="24">
+          </button>
+
+          <!-- Main Testimonial Content Card -->
+          <div class="testimonial-card-main" id="testimonialCard">
+            <!-- Client Photo with Coral Offset Frame -->
+            <div class="testimonial-photo-frame">
+              <div class="testimonial-photo-bg"></div>
+              <img src="./assets/images/testimonial-avatar.jpg" alt="Yunus Seyhan" class="testimonial-img"
+                id="clientImg">
+            </div>
+
+            <!-- Client Quote -->
+            <div class="testimonial-content">
+              <div class="quote-mark">
+                <img src="./assets/icons/icon-quote.svg" alt="Quote" width="40" height="27">
+              </div>
+              <blockquote class="testimonial-text" id="clientQuote">
+                We make sure you have a fine distance with the sickness. We make you never lose hope. We make sure you
+                have with the sickness.
+              </blockquote>
+              <div class="testimonial-stars">
+                <img src="./assets/icons/icon-star-faceted.svg" alt="Star" width="24" height="23">
+                <img src="./assets/icons/icon-star-faceted.svg" alt="Star" width="24" height="23">
+                <img src="./assets/icons/icon-star-faceted.svg" alt="Star" width="24" height="23">
+                <img src="./assets/icons/icon-star-faceted.svg" alt="Star" width="24" height="23">
+                <img src="./assets/icons/icon-star-faceted.svg" alt="Star" width="24" height="23">
+              </div>
+              <h4 class="client-name" id="clientName">Yunus Seyhan</h4>
+              <p class="client-role" id="clientRole">Postgraduate Student</p>
+            </div>
+          </div>
+
+          <!-- Next Button -->
+          <button class="testimonial-nav-btn next" id="nextTestimonialBtn" aria-label="Next Testimonial">
+            <img src="./assets/icons/icon-testimonial-next.svg" alt="Next" width="24" height="24">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         10. Successful Projects & Newsletter Strip
+         ======================================================================== -->
+    <section class="projects-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">We build more projects<br>successful</h2>
+        </div>
+
+        <div class="city-cards-grid">
+          <!-- City 1 -->
+          <div class="city-card">
+            <img src="./assets/images/project-san-francisco.jpg" alt="San Francisco, California">
+            <div class="city-card-overlay"></div>
+            <div class="city-card-content">
+              <h3 class="city-name">San Francisco, California</h3>
+              <a href="#city-sf" class="btn btn-white btn-pill btn-sm"><span>See more</span> <img
+                  src="./assets/icons/icon-chevron-right-orange.svg" alt="" width="12" height="12"></a>
+            </div>
+          </div>
+
+          <!-- City 2 -->
+          <div class="city-card">
+            <img src="./assets/images/project-washington-dc.jpg" alt="Washington DC">
+            <div class="city-card-overlay"></div>
+            <div class="city-card-content">
+              <h3 class="city-name">Washington DC</h3>
+              <a href="#city-dc" class="btn btn-white btn-pill btn-sm"><span>See more</span> <img
+                  src="./assets/icons/icon-chevron-right-orange.svg" alt="" width="12" height="12"></a>
+            </div>
+          </div>
+
+          <!-- City 3 -->
+          <div class="city-card">
+            <img src="./assets/images/project-chicago.jpg" alt="Chicago">
+            <div class="city-card-overlay"></div>
+            <div class="city-card-content">
+              <h3 class="city-name">Chicago</h3>
+              <a href="#city-chicago" class="btn btn-white btn-pill btn-sm"><span>See more</span> <img
+                  src="./assets/icons/icon-chevron-right-orange.svg" alt="" width="12" height="12"></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pill Newsletter Form -->
+        <div class="newsletter-strip-wrapper">
+          <form class="newsletter-form-strip" id="newsletterStripForm">
+            <img src="./assets/icons/icon-email-gray.svg" alt="Email" class="input-icon" width="24" height="24">
+            <input type="email" placeholder="Enter your email here" required
+              aria-label="Email address for subscription">
+            <button type="submit" class="btn btn-primary btn-pill">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         11. From Our Blog
+         ======================================================================== -->
+    <section class="blog-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">From our blog</h2>
+          <p class="section-subtitle">
+            Find your suitable house here and stay safe and <br /> relaxe with pleasure
+          </p>
+        </div>
+
+        <div class="blog-cards-grid">
+          <!-- Blog Card 1 -->
+          <article class="blog-card">
+            <div class="blog-img-wrap">
+              <img src="./assets/images/blog-post-1.jpg" alt="How to rent a home very easily?">
+            </div>
+            <div class="blog-body">
+              <h3 class="blog-title">How to rent a home very easily?</h3>
+              <span class="blog-tag">
+                <img src="./assets/icons/icon-blog-bookmark.svg" alt="Tag" width="11" height="15">
+                Rentals
+              </span>
+              <p class="blog-excerpt">
+                How to rent a home very easily in this pandemic situation. You can rent house through using our
+                platfrom...
+              </p>
+              <div class="blog-meta">
+                <div class="meta-item">
+                  <img src="./assets/icons/icon-blog-calendar.svg" alt="Calendar" width="15" height="15">
+                  <span>3 years ago</span>
+                </div>
+                <div class="meta-item">
+                  <img src="./assets/icons/icon-blog-author.svg" alt="Author" width="10" height="15">
+                  <span>By <span class="author-orange">Mike Hesson</span></span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Blog Card 2 -->
+          <article class="blog-card">
+            <div class="blog-img-wrap">
+              <img src="./assets/images/blog-post-2.jpg" alt="How to rent a home very easily?">
+            </div>
+            <div class="blog-body">
+              <h3 class="blog-title">How to rent a home very easily?</h3>
+              <span class="blog-tag">
+                <img src="./assets/icons/icon-blog-bookmark.svg" alt="Tag" width="11" height="15">
+                Rentals
+              </span>
+              <p class="blog-excerpt">
+                How to rent a home very easily in this pandemic situation. You can rent house through using our
+                platfrom...
+              </p>
+              <div class="blog-meta">
+                <div class="meta-item">
+                  <img src="./assets/icons/icon-blog-calendar.svg" alt="Calendar" width="15" height="15">
+                  <span>3 years ago</span>
+                </div>
+                <div class="meta-item">
+                  <img src="./assets/icons/icon-blog-author.svg" alt="Author" width="10" height="15">
+                  <span>By <span class="author-orange">Mike Hesson</span></span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Blog Card 3 -->
+          <article class="blog-card">
+            <div class="blog-img-wrap">
+              <img src="./assets/images/blog-post-3.jpg" alt="How to rent a home very easily?">
+            </div>
+            <div class="blog-body">
+              <h3 class="blog-title">How to rent a home very easily?</h3>
+              <span class="blog-tag">
+                <img src="./assets/icons/icon-blog-bookmark.svg" alt="Tag" width="11" height="15">
+                Rentals
+              </span>
+              <p class="blog-excerpt">
+                How to rent a home very easily in this pandemic situation. You can rent house through using our
+                platfrom...
+              </p>
+              <div class="blog-meta">
+                <div class="meta-item">
+                  <img src="./assets/icons/icon-blog-calendar.svg" alt="Calendar" width="15" height="15">
+                  <span>3 years ago</span>
+                </div>
+                <div class="meta-item">
+                  <img src="./assets/icons/icon-blog-author.svg" alt="Author" width="10" height="15">
+                  <span>By <span class="author-orange">Mike Hesson</span></span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="center-btn-wrap">
+          <a href="#blog-all" class="btn btn-outline">Read All</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         12. Contact & Buy A Property
+         ======================================================================== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <!-- Centered Contact Header -->
+        <div class="contact-header-center">
+          <span class="contact-tag-orange">Contact with us</span>
+          <h2 class="section-title">Looking For To Buy A<br>Property?</h2>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Info & Checklist -->
+          <div class="contact-info">
+            <p class="contact-lead">
+              Browse our property listing and find your best and suitable home or house for sale, rent and buying. It's
+              so easy and fast.
+            </p>
+
+            <div class="contact-checklist">
+              <div class="contact-check-item">
+                <span class="check-icon">✓</span>
+                <span>Archit ecto beatae vitae dicta sunt</span>
+              </div>
+              <div class="contact-check-item">
+                <span class="check-icon">✓</span>
+                <span>Largest global RealEstate market</span>
+              </div>
+              <div class="contact-check-item">
+                <span class="check-icon">✓</span>
+                <span>Nor again is there anyone</span>
+              </div>
+            </div>
+
+            <!-- Visual Box with 2 Overlapping Images & Deco Accent matching Figma (node 2-113, 2-138, 2-118) -->
+            <div class="contact-visual-box">
+              <img src="./assets/images/contact-house-2.jpg" alt="Modern House Entrance" class="contact-img-1" width="278" height="203">
+              <img src="./assets/images/contact-house.jpg" alt="Luxury Villa Architecture" class="contact-img-2" width="432" height="238">
+              <div class="contact-deco-square"></div>
+            </div>
+          </div>
+
+          <!-- Right Contact Form Card -->
+          <div class="contact-form-card">
+            <h3 class="contact-form-title">Contact Us</h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="contactName" class="form-label">Name</label>
+                <input type="text" id="contactName" class="form-control" placeholder="Enter your name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail" class="form-label">Email</label>
+                <input type="email" id="contactEmail" class="form-control" placeholder="Enter your email" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage" class="form-label">Message</label>
+                <textarea id="contactMessage" class="form-control" placeholder="Enter your message" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-send">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       13. Dark Footer
+       ======================================================================== -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Col 1: Brand Info -->
+        <div class="footer-col footer-col-brand">
+          <a href="./index.html" class="logo footer-logo">
+            <img src="./assets/images/logo-footer.png" alt="logo footer">
+          </a>
+          <p class="footer-brand-desc">
+            With over 1 million homes for sale available on the website.
+          </p>
+          <div class="footer-socials">
+            <a href="#linkedin" class="footer-social-btn" aria-label="LinkedIn">
+              <img src="./assets/icons/icon-social-linkedin-orange.svg" alt="LinkedIn" width="15" height="15">
+            </a>
+            <a href="#facebook" class="footer-social-btn" aria-label="Facebook">
+              <img src="./assets/icons/icon-social-facebook-orange.svg" alt="Facebook" width="15" height="15">
+            </a>
+            <a href="#twitter" class="footer-social-btn" aria-label="Twitter">
+              <img src="./assets/icons/icon-social-twitter-orange.svg" alt="Twitter" width="15" height="15">
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Company -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Company</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#careers">Careers</a></li>
+            <li><a href="#mobile">Mobile</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#how-we-work">How we work?</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Contact -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Contact</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#faq">Help/FAQ</a></li>
+            <li><a href="#press">Press</a></li>
+            <li><a href="#affiliates">Affiliates</a></li>
+            <li><a href="#property-owners">Propert owners</a></li>
+            <li><a href="#partners">Partners</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: More -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">More</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#land-fees">Land fees</a></li>
+            <li><a href="#property">Property</a></li>
+            <li><a href="#law-tips">Law tips</a></li>
+            <li><a href="#badges">Nadges</a></li>
+            <li><a href="#privacy">Privacy</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 5: Head Office & Newsletter -->
+        <div class="footer-col">
+          <div class="footer-office-wrap">
+            <div class="footer-office-wrap-item">
+              <h4 class="footer-col-title">Head Office</h4>
+              <p class="office-address-text">
+                Xiliams Corner Wine &copy; 2017. 1112 A Market St<br>
+                # Ste B22, Charlottesville, CA 45565
+              </p>
+            </div>
+
+            <div class="footer-newsletter-wrap-wrapper">
+              <h4 class="footer-col-title">News letter</h4>
+              <form class="footer-newsletter-wrap" id="footerNewsletterForm">
+                <input type="email" placeholder="Enter your email address" required
+                  aria-label="Email address for news letter">
+                <img src="./assets/icons/icon-mail-orange.svg" alt="Subscribe" width="24" height="17">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <a href="mailto:email@gmail.com" class="bottom-contact-item">
+          <span>email@gmail.com</span>
+        </a>
+
+        <a href="tel:1234567890" class="bottom-contact-item">
+          <span>(123) 456-7890</span>
+        </a>
+
+        <div class="copyright-text">
+          &copy; 2021 Aeyman Megha All rights reserved.
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-notice" id="toastNotice">
+    <span class="toast-check">✓</span>
+    <span id="toastMessage">Success!</span>
+  </div>
+
+  <!-- Main JavaScript (Relative Path) -->
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
